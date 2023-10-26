@@ -1,0 +1,137 @@
+@font-face{
+  font-family: "libras";
+  src: url('libras.ttf');
+}
+
+.custom-navbar {
+    background-color: #039EFF; /* Defina a cor de fundo desejada aqui */
+    padding: 15px;
+    font-family: 'Imprima', sans-serif;
+    justify-content: center;
+  }
+  
+.custom-navbar p{
+    font-size: 32px;
+}
+
+
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    font-weight: bold;
+    background-color: #FEF200;
+    color: #000; /* Defina a cor dos links aqui */
+  }
+  
+  .custom-navbar .nav-link {
+    color: #000; /* Defina a cor do link ativo aqui */
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .custom-navbar .nav-link:hover {
+    color: #0a03037e; /* Defina a cor do link ativo aqui */
+  }
+  
+  .navbar-toggler {
+    border: solid 2px black;
+    width: 64px;  /* Ajustando a largura do botão */
+    height: 64px; /* Ajustando a altura do botão */
+    background-color: yellow;
+    border-radius: 16px; /* Ajustando para bordas completamente arredondadas */
+    padding: 8px 8px;  /* Ajuste no padding para centralizar o ícone */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar-expand-lg .navbar-collapse{
+    justify-content: right;
+  }
+
+
+/* Todas páginas */
+
+.h2-style{
+    background-color: rgb(255,255,255,20%);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 300px;
+    border-radius: 13px;
+    font-size: 60px;
+} 
+
+/* Corpo da página inicial */
+
+  body {
+    background-color: #039EFF;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+.card-body {
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+  
+.card-style{
+    border: solid 1px black;
+    background: #FFE196;
+
+}
+
+.col{
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.card hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.text-area-pt{
+    margin-top: 30px;
+    align-items: end;
+    width: 100%;
+    font-family: 'Imprima', sans-serif;
+    background-color: #FFE196;
+    font-size: 32px;
+    text-align: center;
+    border: 0;
+}
+
+.text-area-lb{
+    margin-top: 30px;
+    width: 100%;
+    border: 0;
+    font-family: 'libras', sans-serif;
+    border-radius: 16px;
+    font-size: 32px;
+    text-align: center;
+    background-color: #FFE196;
+}
+
+  
+
+  
